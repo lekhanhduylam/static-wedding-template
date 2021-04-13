@@ -1,0 +1,26 @@
+{
+  "name": "static-wedding-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lekhanhduylam/static-wedding-template.git"
+  },
+  "engines": {
+    "node": "12.11.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lekhanhduylam/static-wedding-template/issues"
+  },
+  "homepage": "https://github.com/lekhanhduylam/static-wedding-template#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
