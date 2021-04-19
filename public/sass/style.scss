@@ -982,6 +982,26 @@ form {
     width: 100px;
 }
 
+.wedding-time {
+	span {
+		font-size: 18px;
+	}
+	i {
+		font-size: 16px;
+	}
+}
+
+.carousel-item img {
+	 height: 60vw;
+	 object-fit: cover;
+}
+ @media (min-width: 576) {
+	 .carousel-item img {
+		 height: 350px;
+	}
+}
+
+
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
 	display: block;

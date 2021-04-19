@@ -996,6 +996,31 @@ form label {
   width: 100px;
 }
 
+.wedding-time > .icon {
+    font-size: 13px;
+
+}
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px;
+
+.carousel-inner > .item img {
+	 height: 40vw;
+	 object-fit: cover;
+}
+@media (min-width: 576) {
+	 .carousel-inner > .item img {
+		 height: 60vw;
+	}
+}
+@media (min-width: 375) {
+	 .carousel-inner > .item img {
+		 height: 80vw;
+	}
+}
+
+
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
